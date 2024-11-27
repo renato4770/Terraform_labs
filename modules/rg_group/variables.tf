@@ -1,7 +1,7 @@
 variable "enviroments" {
   description = "List of enviroment identifiers"
   type = list(string)
-  //default = [ "env01", "env02", "env03" ]
+  
 }
 
 
@@ -13,6 +13,6 @@ variable "rg_name" {
 variable "regions" {
   description = "List of regions"
   type = list(string)
-  //default = [ "eastus", "southcentralus" ]
+  
 }
 
