@@ -22,7 +22,7 @@ variable "rg_name" {
 }
 
 variable "enviroments" {
-  description = "List of enviroment identifierss"
+  description = "List of enviroment identifiersss"
   type        = list(string)
   default     = ["env01", "env02", "env03"]
 }
