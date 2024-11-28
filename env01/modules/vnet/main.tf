@@ -1,5 +1,5 @@
 module "rg_group" {
-  source = "github.com/renato4770/Terraform_labs/tree/dev/modules/rg_group"
+  source = "git::https://github.com/renato4770/Terraform_labs.git//modules/rg_group?ref=v1.1"
   rg_name = var.rg_name
   enviroments = var.enviroments
   regions = var.regions
